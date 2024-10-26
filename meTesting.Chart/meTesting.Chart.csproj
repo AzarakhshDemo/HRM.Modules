@@ -1,18 +1,18 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<PackageId>Az.HRM.Module.Chart</PackageId>
+		<PackageProjectUrl>https://github.com/AzarakhshDemo/HRM.Modules</PackageProjectUrl>
+		<RepositoryType>https://github.com/AzarakhshDemo/HRM.Modules</RepositoryType>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.2" />
-  </ItemGroup>
-
-  <ItemGroup>
-	  <ProjectReference Include="..\meTesting.Aether.SDK\meTesting.Aether.SDK.csproj" />
-	  <ProjectReference Include="..\meTesting.HRM\meTesting.HRM.csproj" />
-  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Az.Aether.SDK" Version="1.0.0" />
+		<PackageReference Include="Az.HRM.Core" Version="1.0.0" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.2" />
+	</ItemGroup>
 
 </Project>
